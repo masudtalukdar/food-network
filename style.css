@@ -1,10 +1,25 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #e0c7b7;
   margin: 0 auto;
-  padding: 0;
 }
+.c-banner-section {
+  margin-top: 0;
+  padding-top: 5px;
+  height: 30px;
+  width: auto;
+}
+.c-banner-section--text {
+  font-display: inline-block;
+  text-align: center;
+  background-color: #c04a00;
+}
+.c-button {
+  color: whitesmoke;
+}
+
 .rgb-color {
-  color: rgb(252, 143, 73);
+  color: rgba(254, 72, 45, 1);
   margin-bottom: 0;
 }
 h1 {
@@ -44,7 +59,7 @@ p {
   margin-left: 2%;
 }
 .half-width img {
-  width: 95%;
+  width: 100%;
 }
 .link-button {
   text-decoration: none;
@@ -53,11 +68,12 @@ p {
     rgba(252, 143, 73, 1) 0%,
     rgba(254, 72, 45, 1) 48%
   );
+  margin-left: 3%;
   padding: 25px 50px;
   color: white;
   font-weight: bold;
   border-radius: 70px;
-  /* box-shadow:  10px 10px 40px rgb(252,143,73); */
+  box-shadow: 5px 5px 20px rgb(252, 143, 73);
 }
 .about {
   background-image: url(images/shapes/1.png);
@@ -104,4 +120,37 @@ p {
 }
 #recipes-text {
   font-size: 15px;
+}
+.social-container {
+  display: flex;
+
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px gray;
+  margin-bottom: 30px;
+}
+#text {
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  height: 250px;
+  width: justify;
+  background-color: rgb(42, 42, 42);
+  text-align: center;
+  padding-top: 10px;
+}
+footer p {
+  color: honeydew;
+}
+.social-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
