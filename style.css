@@ -12,26 +12,24 @@ h1{
     color: rgb(93, 109, 126);
     font-weight: bold;
 }
+h2{
+    color: rgb(252,143,73);
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
 p{
     text-align:inline;
-    color: grey;
-    font-weight: bold;
+    color: gray;
+    font-size: 18px;
     margin-left: 3%;
     padding-bottom: 20px;
-    
 }
-.link-button{
-    text-decoration: none;
-    background: linear-gradient(90deg, rgba(252,143,73,1) 0%, rgba(254,72,45,1) 48%);
-    padding: 25px 50px;
-    color: white;
-    font-weight: bold;
-    border-radius: 70px;
-    /* box-shadow:  10px 10px 40px rgb(252,143,73); */
-}
+
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 80%;
@@ -44,3 +42,24 @@ p{
 .half-width img{
     width: 95%;
 }
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(252,143,73,1) 0%, rgba(254,72,45,1) 48%);
+    padding: 25px 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: 70px;
+    /* box-shadow:  10px 10px 40px rgb(252,143,73); */
+}
+.about{
+    background-image: url(images/shapes/1.png);
+}
+.about-Co{
+    text-align: justify;
+    margin-right: 2%;
+}
+.text-content{
+    margin-top: 100px;
+    margin-right: 100px;
+    
+}  
